@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/abhijit-padhy/list-making/static/css/main.87a94bb3.chunk.css",
+    "main.js": "/abhijit-padhy/list-making/static/js/main.7ab63da6.chunk.js",
+    "main.js.map": "/abhijit-padhy/list-making/static/js/main.7ab63da6.chunk.js.map",
+    "runtime-main.js": "/abhijit-padhy/list-making/static/js/runtime-main.98399248.js",
+    "runtime-main.js.map": "/abhijit-padhy/list-making/static/js/runtime-main.98399248.js.map",
+    "static/js/2.ec0033e1.chunk.js": "/abhijit-padhy/list-making/static/js/2.ec0033e1.chunk.js",
+    "static/js/2.ec0033e1.chunk.js.map": "/abhijit-padhy/list-making/static/js/2.ec0033e1.chunk.js.map",
+    "index.html": "/abhijit-padhy/list-making/index.html",
+    "precache-manifest.3f7a6448a1a9b416eb7acb3c7aedd00b.js": "/abhijit-padhy/list-making/precache-manifest.3f7a6448a1a9b416eb7acb3c7aedd00b.js",
+    "service-worker.js": "/abhijit-padhy/list-making/service-worker.js",
+    "static/css/main.87a94bb3.chunk.css.map": "/abhijit-padhy/list-making/static/css/main.87a94bb3.chunk.css.map",
+    "static/js/2.ec0033e1.chunk.js.LICENSE.txt": "/abhijit-padhy/list-making/static/js/2.ec0033e1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98399248.js",
+    "static/js/2.ec0033e1.chunk.js",
+    "static/css/main.87a94bb3.chunk.css",
+    "static/js/main.7ab63da6.chunk.js"
+  ]
+}
