@@ -2,37 +2,97 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Stage styles start */
+.p1 {
+  padding: 1rem;
+}
+.p2 {
+  padding: .5rem;
+}
+.p3 {
+  padding: .25rem;
+}
+.my2 {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.mx2 {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+.mb2 {
+  margin-bottom: .5rem;
+}
+.border1 {
+  border: 1px solid #cccccc;
+}
+.rounded2 {
+  border-radius: .25rem;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.w-100 {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.stages {
+  position: relative;
+  flex-grow: 1;
+  text-align: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.stage-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  overflow-y: hidden;
+  padding-bottom: 8px;
+  white-space: nowrap;
+  /* margin-bottom: .5rem; */
+}
+
+.tasks-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-height: 100%;
+  box-sizing: border-box;
+  background-color: #ebecf0;
 }
 
-.App-link {
-  color: #61dafb;
+.tasks {
+  flex: 1 1 auto;
+  margin-bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stages .stage {
+  width: 272px;
+  height: 100%;
+  vertical-align: top;
+  /* border-box keeps stops overflowing out of absolute container */
+  box-sizing: border-box; 
 }
+
+.stages .stage .stage-header {
+  font-weight: bold;
+}
+
+.tasks .task, form .new-task {
+  background-color: white;
+  min-height: 50px;
+  word-break: break-word;
+}
+.new-task textarea {
+  resize: none;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+.new-task textarea:focus {
+  outline: none;
+}
+/* End */
